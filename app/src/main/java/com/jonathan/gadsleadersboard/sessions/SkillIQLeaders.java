@@ -12,11 +12,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
-import com.nabase1.gadsleaderboard.R;
-import com.nabase1.gadsleaderboard.adapters.LeanerBoardAdapter;
-import com.nabase1.gadsleaderboard.adapters.SkillIqAdapter;
-import com.nabase1.gadsleaderboard.modals.Learners;
-import com.nabase1.gadsleaderboard.utils.ApiUtils;
+import com.jonathan.gadsleadersboard.R;
+import com.jonathan.gadsleadersboard.HolderAdapter.LearnerBoardAdapter;
+import com.jonathan.gadsleadersboard.HolderAdapter.SkillIQAdapter;
+import com.jonathan.gadsleadersboard.LearnersHolder.Learners;
+import com.jonathan.gadsleadersboard.utils.ApiUtils;
 
 import java.io.IOException;
 import java.net.URL;
@@ -125,7 +125,7 @@ public class SkillIQLeaders extends Fragment {
 
             ArrayList<Learners> learners = ApiUtils.getLeaderListFromJson(s);
 
-            SkillIqAdapter skillIqAdapter = new SkillIqAdapter(learners);
+            SkillIQAdapter skillIqAdapter = new SkillIQAdapter(learners);
             mRecyclerView.setAdapter(skillIqAdapter);
 
 

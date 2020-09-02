@@ -8,10 +8,10 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.nabase1.gadsleaderboard.databinding.ActivitySubmitProjectBinding;
-import com.nabase1.gadsleaderboard.databinding.ConfirmationDialogDesignBinding;
-import com.nabase1.gadsleaderboard.databinding.DialogDesignBinding;
-import com.nabase1.gadsleaderboard.databinding.ToolbarBinding;
+import com.jonathan.gadsleadersboard.databinding.ActivitySubmitProjectBinding;
+import com.jonathan.gadsleadersboard.databinding.ConfirmationDialogDesignBinding;
+import com.jonathan.gadsleadersboard.databinding.DialogDesignBinding;
+import com.jonathan.gadsleadersboard.databinding.ToolbarBinding;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;
