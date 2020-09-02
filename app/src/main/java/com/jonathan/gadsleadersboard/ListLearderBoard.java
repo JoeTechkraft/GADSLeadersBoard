@@ -13,7 +13,7 @@ import android.view.View;
 
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
-import com.nabase1.gadsleaderboard.adapters.PageAdapter;
+import com.jonathan.gadsleadersboard.HolderAdapter.PageAdapter;
 
 public class ListLearderBoard extends AppCompatActivity {
 

@@ -3,7 +3,7 @@ package com.jonathan.gadsleadersboard.utils;
 import android.net.Uri;
 import android.util.Log;
 
-import com.nabase1.gadsleaderboard.modals.Learners;
+import com.jonathan.gadsleadersboard.LearnersHolder.Learners;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -17,8 +17,9 @@ import java.util.Scanner;
 
 import javax.net.ssl.HttpsURLConnection;
 
-import static com.nabase1.gadsleaderboard.Constants.BASE_URL_API;
-import static com.nabase1.gadsleaderboard.Constants.QUERY_PARAM_KEY;
+import static com.jonathan.gadsleadersboard.Constants.BASE_URL_API;
+import static com.jonathan.gadsleadersboard.Constants.BASE_URL_API;
+import static com.jonathan.gadsleadersboard.Constants.QUERY_PARAM_KEY;
 
 public class ApiUtils {
 

@@ -6,7 +6,6 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/submit_img"
         tools:context=".SubmitProject">
 
         <include
@@ -31,7 +30,8 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:autofillHints="" />
 
         <EditText
             android:id="@+id/editTextLastName"
@@ -47,7 +47,8 @@
             app:layout_constraintBottom_toBottomOf="@+id/editTextFirstName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toTopOf="@+id/editTextFirstName" />
+            app:layout_constraintTop_toTopOf="@+id/editTextFirstName"
+            android:autofillHints="" />
 
         <EditText
             android:id="@+id/editTextEmail"
@@ -63,7 +64,8 @@
             android:padding="@dimen/padding_size"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextFirstName" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextFirstName"
+            android:autofillHints="" />
 
         <EditText
             android:id="@+id/editTextLink"
@@ -78,7 +80,8 @@
             app:layout_constraintEnd_toEndOf="@+id/editTextEmail"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/editTextEmail"
-            app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
+            android:autofillHints="" />
 
         <Button
             android:id="@+id/button2"
