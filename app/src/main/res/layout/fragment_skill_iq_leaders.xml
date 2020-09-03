@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".fragments.LearningLeadersFragment">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_marginTop="10dp"
-            android:id="@+id/learning_leaders_recyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:listitem="@layout/learning_leaders_list_row" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:id="@+id/skill_leaders_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/skill_leaders_list_row" />
 
     <include
         android:id="@+id/emptyView"
